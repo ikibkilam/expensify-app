@@ -4,6 +4,7 @@ import ExpenseForm from './ExpenseForm.js'
 import { edit_expense } from '../actions/expenses.js'
 import { remove_expense } from '../actions/expenses';
 
+// This component runs when user selects /edit/:id in the url.
 const EditExpensePage = (props) => {
     console.log("Props passed to EditExpense comes from mapStateToProps and EditExpensePage component defined in AppRouter:", props)
     return (

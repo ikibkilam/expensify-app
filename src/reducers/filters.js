@@ -2,8 +2,6 @@ import moment from 'moment';
 
 // REDUCER FOR FILTERS.
 
-// 0. I changed the default values of startDate to be the begining of the month, and endDate to be the end of the month.
-//    Earlier we had undefined for both. We used the moment library and methods startOf() and endOf().
 const filtersReducerDefaultState = {
     text: '',
     sortBy: 'date',

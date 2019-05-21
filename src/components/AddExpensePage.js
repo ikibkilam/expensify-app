@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { add_expense } from '../actions/expenses.js';
 import ExpenseForm from './ExpenseForm.js';
 
+// This component runs when user selects /create in the url.
 const AddExpensePage = (props) => (
     <div>
         <h1>Add Expense</h1>
