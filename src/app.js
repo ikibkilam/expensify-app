@@ -1,4 +1,4 @@
-// Integrate Git Into Project.
+// Create Separate CSS Files.
 
 // Imports 3rd party NPM packages.
 import React from 'react';
@@ -28,6 +28,7 @@ store.dispatch( add_expense( { description: 'Water bill', amount: 300, createdAt
 store.dispatch( add_expense( { description: 'Gas bill', amount: 100, createdAt: 200 } ) );
 store.dispatch( add_expense( { description: 'Rent bill', amount: 109500 }));
  
+console.log('test');
 
 // Make store available to components.
 const jsx = (
